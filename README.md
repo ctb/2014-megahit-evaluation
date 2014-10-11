@@ -16,4 +16,6 @@ Install QUAST (http://bioinf.spbau.ru/quast) somewhere, edit Makefile appropriat
 
 Build MEGAHIT somewhere, edit Makefile appropriately.
 
+Install SPAdes (http://bioinf.spbau.ru/spades) somewhere, edit Makefile appropriately.
+
 Run 'make all'.
