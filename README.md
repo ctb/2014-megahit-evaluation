@@ -14,7 +14,7 @@ Grab the E. coli genome:
 
 Install QUAST (http://bioinf.spbau.ru/quast) somewhere, edit Makefile appropriately.
 
-Build MEGAHIT somewhere, edit Makefile appropriately.
+Build MEGAHIT (https://github.com/voutcn/megahit/) somewhere, edit Makefile appropriately.
 
 Install SPAdes (http://bioinf.spbau.ru/spades) somewhere, edit Makefile appropriately.
 
