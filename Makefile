@@ -8,7 +8,7 @@ all: quast_1m/report.txt quast_500k/report.txt quast_5m/report.txt \
 	quast_spades_5m_dn/report.txt
 
 clean:
-	-rm -fr megahit_1m megahit_5m megahit_500k
+	-rm -fr megahit_* quast_* spades_* *.keep
 
 megahit_1m/final.contigs.fa: ecoli_ref-1m.fastq.gz
 	${MEGAHIT} -m 1e9 -l 250 --k-max 81 -r ecoli_ref-1m.fastq.gz --cpu-only -o megahit_1m
