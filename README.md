@@ -19,3 +19,7 @@ Build MEGAHIT (https://github.com/voutcn/megahit/) somewhere, edit Makefile appr
 Install SPAdes (http://bioinf.spbau.ru/spades) somewhere, edit Makefile appropriately.
 
 Run 'make all'.
+
+----
+
+The Makefile is under the BSD license; please see the LICENSE file.
